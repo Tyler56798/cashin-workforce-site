@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact · Cashin Workforce Solutions</title>
+<meta name="description" content="Book a conversation with Cashin Workforce Solutions, send a message, or reach out directly by email or phone.">
+<meta name="theme-color" content="#F7F5F0">
+<meta property="og:title" content="Contact · Cashin Workforce Solutions">
+<meta property="og:description" content="Book a time, send a message, or reach out directly. You'll talk to the principal, not a sales team.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23081A2B'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23F7F5F0' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,600;1,400&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#top">Skip to main content</a>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html">Cashin<span>.</span><small>Workforce Solutions</small></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#industries">Industries</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="about.html">About</a>
+      <a class="btn btn-solid" href="contact.html" aria-current="page">Start a Conversation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="page-hero dark">
+    <div class="wrap">
+      <p class="kicker">Get In Touch</p>
+      <h1>Start a conversation.</h1>
+      <p class="lede">Book a time that works for you, send a message, or reach out directly. However you get in touch, you&rsquo;ll hear back from Michael, not a sales team.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap contact-grid">
+
+      <!-- FORM -->
+      <div class="reveal">
+        <p class="kicker">Send a Message</p>
+        <h2 style="font-size: clamp(28px, 3.4vw, 38px); margin: 20px 0 12px;">Tell us what you need.</h2>
+        <p style="color: var(--muted); margin-bottom: 36px; max-width: 52ch;">A sentence or two is plenty. We&rsquo;ll come back with practical next steps, usually within one business day.</p>
+
+        <!-- DRAFT: this form composes an email in the visitor's mail client.
+             For production, point it at a form service (e.g. Formspree: action="https://formspree.io/f/YOUR_ID" method="POST")
+             or a small backend, and remove the mailto fallback script below. -->
+        <form class="contact-form" id="contact-form">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required placeholder="Pat Sample…">
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required placeholder="pat@company.com…">
+          </div>
+          <div class="field">
+            <label for="cf-phone">Phone <span class="opt">(optional)</span></label>
+            <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(713) 555-0100…">
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" required placeholder="What are you trying to solve? E.g. we need a plant manager hired by Q3…"></textarea>
+          </div>
+          <button class="btn btn-solid" type="submit">Send Message</button>
+          <p class="form-note">Submitting opens a pre-filled email in your mail program. Prefer not to? Use the booking link or email us directly.</p>
+        </form>
+      </div>
+
+      <!-- ALTERNATIVES -->
+      <div class="contact-aside reveal">
+        <div class="opt-card">
+          <span class="glyph" aria-hidden="true">( i )</span>
+          <h2>Book a time to call</h2>
+          <p>Pick a slot on the calendar and Michael will call you. No back-and-forth.</p>
+          <a class="btn btn-solid" id="calendly-btn" href="https://calendly.com/" target="_blank" rel="noopener">Book a Call</a>
+          <p class="fine draft-flag" id="calendly-flag">[Booking goes live once Michael&rsquo;s Calendly link is added &mdash; see CALENDLY_URL in this page&rsquo;s script]</p>
+        </div>
+        <div class="opt-card">
+          <span class="glyph" aria-hidden="true">( ii )</span>
+          <h2>Email us</h2>
+          <p>Send your information and what you&rsquo;re looking for, and we&rsquo;ll reply with more detail about how we can help.</p>
+          <a class="plain" href="mailto:contact@cashinworkforce.com">contact@cashinworkforce.com</a>
+          <p class="fine draft-flag">[Placeholder address pending Michael&rsquo;s confirmation]</p>
+        </div>
+        <div class="opt-card">
+          <span class="glyph" aria-hidden="true">( iii )</span>
+          <h2>Call</h2>
+          <p>Sometimes the fastest way is the old way.</p>
+          <a class="plain" href="tel:+10000000000">(000) 000-0000</a>
+          <p class="fine draft-flag">[Placeholder number pending Michael&rsquo;s confirmation]</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Cashin Workforce Solutions LLC. All rights reserved.</span>
+    <nav aria-label="Footer"><a href="index.html#services">Services</a> &nbsp;·&nbsp; <a href="index.html#industries">Industries</a> &nbsp;·&nbsp; <a href="about.html">About</a> &nbsp;·&nbsp; <a href="contact.html">Contact</a></nav>
+  </div>
+</footer>
+
+<noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+<script>
+  // ===== CALENDLY =====
+  // Paste Michael's Calendly scheduling link below (e.g. "https://calendly.com/cashinworkforce/intro-call").
+  // Once set, the "Book a Call" button opens Calendly in a popup (or a new tab if the widget fails to load).
+  const CALENDLY_URL = "";
+
+  const calendlyBtn = document.getElementById("calendly-btn");
+  if (CALENDLY_URL) {
+    calendlyBtn.href = CALENDLY_URL;
+    document.getElementById("calendly-flag")?.remove();
+
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://assets.calendly.com/assets/external/widget.css";
+    document.head.appendChild(css);
+    const js = document.createElement("script");
+    js.src = "https://assets.calendly.com/assets/external/widget.js";
+    js.async = true;
+    document.body.appendChild(js);
+
+    calendlyBtn.addEventListener("click", (e) => {
+      if (window.Calendly) {
+        e.preventDefault();
+        Calendly.initPopupWidget({ url: CALENDLY_URL });
+      }
+      // If the widget didn't load, the link still opens Calendly in a new tab.
+    });
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+    }
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+  // Draft-only: compose an email from the form. Replace with a form service for production.
+  document.getElementById("contact-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const subject = "Website inquiry from " + f.name.value;
+    const body = [
+      "Name: " + f.name.value,
+      "Email: " + f.email.value,
+      "Phone: " + (f.phone.value || "(not provided)"),
+      "",
+      f.message.value
+    ].join("\n");
+    location.href = "mailto:contact@cashinworkforce.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  });
+</script>
+
+</body>
+</html>
