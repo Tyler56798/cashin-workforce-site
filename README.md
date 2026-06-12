@@ -20,4 +20,6 @@ Built from a real client interview, then revised after a feedback call where the
 
 ## What I Learned
 
-<!-- [TYLER: 3-5 sentences in your own words. Prompts: what surprised you about Mike's answers? What did AI get right/wrong that you had to redirect? What CSS did you learn (Grid template columns? clamp()? IntersectionObserver reveals?)] -->
+The biggest surprise was the client feedback: I think the site is still a bit basic and has room to grow, but Mike was genuinely happy with it and asked for zero design changes. That taught me that the client's taste and the developer's taste are two different things — what reads as "basic" to me read as "clean and professional" to him, and his judgment is the one that counts.
+
+I also leveled up how I work with AI compared to my earlier projects: instead of asking for code and pasting it in, I gave it real context (a client brief, his actual LinkedIn career history, specific feedback from our calls) and reviewed what came back. The result felt like directing the work rather than receiving it. On the technical side, I got comfortable with CSS Grid layouts that collapse for mobile, `clamp()` for fluid type sizes, and using IntersectionObserver for scroll-reveal effects with a `noscript` fallback so the page still works without JavaScript.
